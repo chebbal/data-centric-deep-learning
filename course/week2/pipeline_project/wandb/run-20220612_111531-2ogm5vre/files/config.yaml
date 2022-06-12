@@ -1,0 +1,60 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.16
+    framework: huggingface
+    huggingface_version: 4.18.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1655032531
+    t:
+      1:
+      - 1
+      - 9
+      - 11
+      - 13
+      - 41
+      - 49
+      - 55
+      2:
+      - 1
+      - 9
+      - 11
+      - 13
+      - 41
+      - 49
+      - 55
+      3:
+      - 2
+      4: 3.8.13
+      5: 0.12.16
+      6: 4.18.0
+      8:
+      - 5
+config/system/data/root:
+  desc: null
+  value: ./artifacts/data/mnist
+config/system/model/name:
+  desc: null
+  value: linear
+config/system/optimizer/batch_size:
+  desc: null
+  value: 32
+config/system/optimizer/lr:
+  desc: null
+  value: 0.004
+config/system/optimizer/max_epochs:
+  desc: null
+  value: 10
+config/system/save_dir:
+  desc: null
+  value: ./artifacts/ckpts/integration_flow
+config/wandb/entity:
+  desc: null
+  value: chaybh
+config/wandb/project:
+  desc: null
+  value: integration_flow
